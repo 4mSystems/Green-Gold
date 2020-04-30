@@ -8,13 +8,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
-                            <img src="{{ asset('public/img/googleplaybadge.png')}}" width="150" height="60">
+                            <text class="bold text-right" style="float: left">
+                                <a href="http://greengold-egy.com/apps" target="_blank">
+                                    <img src="{{ asset('public/img/googleplaybadge.png')}}" width="150" height="60"></a>حمل
+                                أو حدث التطبيق
+                            </text>
                             <text class="bold text-right" style="float: right">جرين جولد للمشروعات الزراعية</text>
-
                         </div>
-                        {{--                        <div class="col-sm-6 col-md-6">--}}
-                        {{--                            <h6 class="bold text-right">جرين جولد للمشروعات الزراعية</h6>--}}
-                        {{--                        </div>--}}
                     </div>
                 </div>
             </div>
@@ -60,6 +60,14 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="item active">
+                            <img src="{{ asset('public/img/slider/11.jpeg')}}"
+                            >
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('public/img/slider/12.jpeg')}}"
+                            >
+                        </div>
+                        <div class="item">
                             <img src="{{ asset('public/img/slider/09.jpeg')}}"
                             >
                         </div>
@@ -411,8 +419,8 @@
                                                class="cbp-caption cbp-singlePage">
                                                 <div class="cbp-caption-defaultWrap">
                                                     <img
-                                                        src="{{$product->product_img}}"
-                                                        alt="" width="100%">
+                                                            src="{{$product->product_img}}"
+                                                            alt="" width="100%">
                                                 </div>
                                                 <div class="cbp-caption-activeWrap">
                                                     <div class="cbp-l-caption-alignCenter">
@@ -425,7 +433,7 @@
                                             <a href="{{URL::to('product/'.$product->id)}}"
                                                class="cbp-singlePage cbp-l-grid-team-name">{{$product->product_name}}</a>
                                             <div
-                                                class="cbp-l-grid-team-position">{{ $product->getCategory->category_name }}</div>
+                                                    class="cbp-l-grid-team-position">{{ $product->getCategory->category_name }}</div>
                                         </li>
 
                                     @endforeach
@@ -551,8 +559,8 @@
                                         <div class="person-text rel text-light">
                                             <img src="{{ asset('public/img/turkey.jpg')}}" alt=""
                                                  class="person img-circle"/>
-                                            <a  >تركيا</a>
-                                            <span  >2013</span>
+                                            <a>تركيا</a>
+                                            <span>2013</span>
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6 hidden-xs">
@@ -565,8 +573,8 @@
                                         <div class="person-text rel text-light">
                                             <img src="{{ asset('public/img/china.jpg')}}" alt=""
                                                  class="person img-circle"/>
-                                            <a   href="#">الصين</a>
-                                            <span  >2014</span>
+                                            <a href="#">الصين</a>
+                                            <span>2014</span>
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
@@ -578,8 +586,8 @@
                                         <div class="person-text rel text-light">
                                             <img src="{{ asset('public/img/africa.jpg')}}" alt=""
                                                  class="person img-circle"/>
-                                            <a  >مصر</a>
-                                            <span  >2015</span>
+                                            <a>مصر</a>
+                                            <span>2015</span>
                                         </div>
                                     </div>
                                 </div>
@@ -594,8 +602,8 @@
                                         <div class="person-text rel text-light">
                                             <img src="{{ asset('public/img/turkry2016.jpg')}}" alt=""
                                                  class="person img-circle"/>
-                                            <a   href="#">تركيا</a>
-                                            <span  >2016</span>
+                                            <a href="#">تركيا</a>
+                                            <span>2016</span>
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6 hidden-xs">
@@ -608,8 +616,8 @@
                                         <div class="person-text rel text-light">
                                             <img src="{{ asset('public/img/egypt2016.jpg')}}" alt=""
                                                  class="person img-circle"/>
-                                            <a  >مصر</a>
-                                            <span  >2016</span>
+                                            <a>مصر</a>
+                                            <span>2016</span>
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6 hidden-xs">
@@ -622,8 +630,8 @@
                                         <div class="person-text rel text-light">
                                             <img src="{{ asset('public/img/egypt2016.jpg')}}" alt=""
                                                  class="person img-circle"/>
-                                            <a  >مصر</a>
-                                            <span  >2017</span>
+                                            <a>مصر</a>
+                                            <span>2017</span>
                                         </div>
                                     </div>
 
@@ -639,8 +647,8 @@
                                         <div class="person-text rel text-light">
                                             <img src="{{ asset('public/img/turkry2016.jpg')}}" alt=""
                                                  class="person img-circle"/>
-                                            <a  >تركيا</a>
-                                            <span  >2018</span>
+                                            <a>تركيا</a>
+                                            <span>2018</span>
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6 hidden-xs">
@@ -653,8 +661,8 @@
                                         <div class="person-text rel text-light">
                                             <img src="{{ asset('public/img/egypt2016.jpg')}}" alt=""
                                                  class="person img-circle"/>
-                                            <a  >مصر</a>
-                                            <span  >2018</span>
+                                            <a>مصر</a>
+                                            <span>2018</span>
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6 hidden-xs">
@@ -666,8 +674,8 @@
                                         <div class="person-text rel text-light">
                                             <img src="{{ asset('public/img/egypt2016.jpg')}}" alt=""
                                                  class="person img-circle"/>
-                                            <p  >مصر</p>
-                                            <span  >2019</span>
+                                            <p>مصر</p>
+                                            <span>2019</span>
                                         </div>
                                     </div>
 
@@ -719,9 +727,9 @@
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="partner">
-                            <a href="http://2020.agri-db.org/ar/agri-inputs/company/green-gold" target="_blank"><img
-                                    src="{{ asset('public/img/dummy/partner-3.jpeg')}}" class="img-responsive"
-                                    alt=""/></a>
+                            <a href="http://agri-db.org/ar/agri-inputs/company/green-gold" target="_blank"><img
+                                        src="{{ asset('public/img/dummy/partner-3.jpeg')}}" class="img-responsive"
+                                        alt=""/></a>
                         </div>
                     </div>
 
@@ -891,13 +899,14 @@
                                     <li class="social-twitter"><a href="https://twitter.com/GreenGo27632283"
                                                                   target="_blank"><i class="fa fa-twitter"></i></a></li>
                                     <li class="social-instagram"><a
-                                            href="https://www.instagram.com/greengoldcompany616/" target="_blank"><img
-                                                src="{{asset('public/img/instagram.png')}}" alt="" width="40"
-                                                height="40"/></a></li>
+                                                href="https://www.instagram.com/greengoldcompany616/"
+                                                target="_blank"><img
+                                                    src="{{asset('public/img/instagram.png')}}" alt="" width="40"
+                                                    height="40"/></a></li>
                                     <li class="social-linkedin"><a
-                                            href="https://www.linkedin.com/in/green-gold-company-495429199/"
-                                            target="_blank"> <img src="{{asset('public/img/linkedin.png')}}" alt=""
-                                                                  width="40" height="40"/></a></li>
+                                                href="https://www.linkedin.com/in/green-gold-company-495429199/"
+                                                target="_blank"> <img src="{{asset('public/img/linkedin.png')}}" alt=""
+                                                                      width="40" height="40"/></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -910,7 +919,7 @@
                         <div class="col-sm-6 col-md-6 col-lg-6">
                             <div class="wow fadeInLeft" data-wow-delay="0.1s">
                                 <div class="text-left">
-                                    <p>&copy;Copyright Green-Gold All rights reserved.</p>
+                                    <p>&copy;Copyright 2020 Green-Gold All rights reserved.</p>
                                 </div>
                             </div>
                         </div>
@@ -920,7 +929,7 @@
                                     <div class="credits">
                                         Designed & Developed by <a href="https://www.facebook.com/TitansAdsCompany/"
                                                                    target="_blank">Titans </a> &<a
-                                            href="https://www.facebook.com/4m.Managers/" target="_blank"> 4M</a>
+                                                href="https://www.facebook.com/4m.Managers/" target="_blank"> 4M</a>
                                     </div>
 
                                 </div>

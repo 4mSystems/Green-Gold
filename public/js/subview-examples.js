@@ -524,7 +524,7 @@ var SVExamples = function() {
             gender: 'M',
             permits: 'View and Edit',
             password: 'password',
-            avatar: "assets/images/avatar-1.jpg"
+            avatar: ""
         }, {
             firstName: 'Nicole',
             lastName: 'Bell',
@@ -532,7 +532,7 @@ var SVExamples = function() {
             gender: 'F',
             permits: 'View and Edit',
             password: 'password',
-            avatar: "assets/images/avatar-2.jpg"
+            avatar: ""
         }, {
             firstName: 'Steven',
             lastName: 'Thompson',
@@ -540,7 +540,7 @@ var SVExamples = function() {
             gender: 'M',
             permits: 'View Only',
             password: 'password',
-            avatar: "assets/images/avatar-3.jpg"
+            avatar: ""
         }, {
             firstName: 'Ella',
             lastName: 'Patterson',
@@ -548,7 +548,7 @@ var SVExamples = function() {
             gender: 'F',
             permits: 'View Only',
             password: 'password',
-            avatar: "assets/images/avatar-4.jpg"
+            avatar: ""
         }, {
             firstName: 'Kenneth',
             lastName: 'Ross',
@@ -556,7 +556,7 @@ var SVExamples = function() {
             gender: 'M',
             permits: 'View and Edit',
             password: 'password',
-            avatar: "assets/images/avatar-5.jpg"
+            avatar: ""
         }];
     };
 
@@ -1048,7 +1048,7 @@ var SVExamples = function() {
                 var noteToSave = new Object;
                 noteToSave.title = $('.form-note .note-title').val(), noteToSave.shortContent = jQuery.truncate($note.code(), {
                     length: 200
-                }), noteToSave.content = $note.code(), noteToSave.author = "Peter Clark", noteToSave.avatar = "assets/images/avatar-1-small.jpg", noteToSave.date = new Date();
+                }), noteToSave.content = $note.code(), noteToSave.author = "Peter Clark", noteToSave.avatar = "", noteToSave.date = new Date();
                 $.mockjax({
                     url: '/note/new/webservice',
                     dataType: 'json',
