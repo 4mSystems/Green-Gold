@@ -64,7 +64,7 @@
                             >
                         </div>
                         <div class="item">
-                            <img src="{{ asset('public/img/slider/12.jpeg')}}"
+                            <img src="{{ asset('public/img/slider/13.jpeg')}}"
                             >
                         </div>
                         <div class="item">
@@ -906,6 +906,10 @@
                                     <li class="social-linkedin"><a
                                                 href="https://www.linkedin.com/in/green-gold-company-495429199/"
                                                 target="_blank"> <img src="{{asset('public/img/linkedin.png')}}" alt=""
+                                                                      width="40" height="40"/></a></li>
+                                    <li class="social-youtube"><a
+                                                href="https://www.youtube.com/channel/UCgugipXOxdMXl_XzBHD2dMg?reload=9"
+                                                target="_blank"> <img src="{{asset('public/img/youtube.png')}}" alt=""
                                                                       width="40" height="40"/></a></li>
                                 </ul>
                             </div>

@@ -35,11 +35,13 @@ Route::group(['prefix' => 'admin'], function () {
     // This is For configrations CRUD ..
     Route::get('configrations', 'Admin\configrationsController@viewForm')->name('configrations');
     Route::put('configrations/update', 'Admin\configrationsController@update')->name('configrations/update');
+    Route::get('/logout',function(){
+        return back();
+    });
 
 });
 //Contact
 Route::post('send-contact', 'ContactController@sendMail')->name('send-contact');
-
 
 
 
